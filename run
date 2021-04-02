@@ -1,0 +1,5 @@
+#!/bin/bash -e
+. ~/camlookupbridge/venv/bin/activate
+PYTHONPATH=~/camlookupbridge:$PYTHONPATH \
+    exec gunicorn -w 2 -b unix:/home/user/camlookupbridge/web.sock \
+    --log-file - server:app

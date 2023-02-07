@@ -1,6 +1,6 @@
 # CamLookupBridge
 
-A Flask API to enable access to the University of Cambridge Lookup Service API from outside the CUDN to authorised users only, via the SRCF.
+A Flask server exposing an API enabling limited access to the University of Cambridge Lookup Service API from outside the CUDN to authorised users only, via the SRCF.
 
 ## Installation
 

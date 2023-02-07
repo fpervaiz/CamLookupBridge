@@ -7,16 +7,26 @@ from flask import Flask, abort
 from flask_httpauth import HTTPBasicAuth
 from werkzeug.security import generate_password_hash, check_password_hash
 
-sys.stdout = open('/home/user/camlookupbridge/logs/' +
-                  str(datetime.datetime.now()) + '.log', 'w')
-sys.stderr = sys.stdout
-
 app = Flask(__name__)
 auth = HTTPBasicAuth()
 
 users = {
-    'admin': generate_password_hash(os.environ.get('CAMLOOKUPBRIDGE_ADMIN_PWD')),
+    'admin': generate_password_hash(os.environ.get('CAMLOOKUPBRIDGE_ADMIN_PWD', 'DEFAULT')),
 }
+
+def parseLookupResponse(response):
+    if 'person' in response:
+        return {
+                'crsid': response['person']['identifier']['value'],
+                'displayName': response['person']['displayName'],
+                'cancelled': response['person']['cancelled'],
+                'isStudent': response['person']['student'],
+                'isStaff': response['person']['staff'],
+                'affiliation': response['person'].get('misAffiliation', ''),
+                'colleges': [{'id': institution['instid'], 'name': institution['name']} for institution in response['person']['institutions'] if 'college' in institution['name'].lower() and not institution['cancelled']]
+            }
+
+    return None
 
 
 @auth.verify_password
@@ -34,20 +44,15 @@ def lookup(crsid):
 
     response = r.json()['result']
 
-    if 'person' in response:
-        return {
-            'crsid': response['person']['identifier']['value'],
-            'visibleName': response['person']['visibleName'],
-            'cancelled': response['person']['cancelled'],
-            'isStudent': response['person']['student'],
-            'isStaff': response['person']['staff'],
-            'affiliation': response['person']['misAffiliation'],
-            'college': [institution['instid'] for institution in response['person']['institutions'] if 'College' in institution['name'] and not institution['cancelled']]
-        }
-
+    result = parseLookupResponse(response)
+    if result:
+        return result
     else:
         abort(400, 'Invalid crsid')
 
 
 if __name__ == '__main__':
+    sys.stdout = open('~/camlookupbridge/logs/' +
+                  str(datetime.datetime.now()) + '.log', 'w')
+    sys.stderr = sys.stdout
     app.run()

@@ -14,17 +14,16 @@ users = {
     'admin': generate_password_hash(os.environ.get('CAMLOOKUPBRIDGE_ADMIN_PWD', 'DEFAULT')),
 }
 
+
 def parseLookupResponse(response):
     if 'person' in response:
         return {
-                'crsid': response['person']['identifier']['value'],
-                'displayName': response['person']['displayName'],
-                'cancelled': response['person']['cancelled'],
-                'isStudent': response['person']['student'],
-                'isStaff': response['person']['staff'],
-                'affiliation': response['person'].get('misAffiliation', ''),
-                'colleges': [{'id': institution['instid'], 'name': institution['name']} for institution in response['person']['institutions'] if 'college' in institution['name'].lower() and not institution['cancelled']]
-            }
+            'crsid': response['person']['identifier']['value'],
+            'displayName': response['person']['displayName'],
+            'cancelled': response['person']['cancelled'],
+            'isStudent': response['person']['student'],
+            'colleges': [{'id': institution['instid'], 'cancelled': institution['cancelled']} for institution in response['person']['institutions']]
+        }
 
     return None
 
@@ -53,6 +52,6 @@ def lookup(crsid):
 
 if __name__ == '__main__':
     sys.stdout = open('~/camlookupbridge/logs/' +
-                  str(datetime.datetime.now()) + '.log', 'w')
+                      str(datetime.datetime.now()) + '.log', 'w')
     sys.stderr = sys.stdout
     app.run()

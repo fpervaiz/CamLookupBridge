@@ -1,0 +1,641 @@
+{
+    "FTHEO": {
+        "cancelled": false,
+        "instid": "FTHEO",
+        "name": "Cambridge Theological Federation",
+        "acronym": "CTF"
+    },
+    "DTRPR19": {
+        "cancelled": false,
+        "instid": "DTRPR19",
+        "name": "Advanced Diploma in Theology, Religion and Philosophy of Religion entry 2019"
+    },
+    "DTRPR21": {
+        "cancelled": false,
+        "instid": "DTRPR21",
+        "name": "Advanced Diploma in Theology, Religion and Philosophy of Religion entry 2021"
+    },
+    "DTRPR22": {
+        "cancelled": false,
+        "instid": "DTRPR22",
+        "name": "Advanced Diploma in Theology, Religion and Philosophy of Religion entry 2022"
+    },
+    "DTRPR23": {
+        "cancelled": false,
+        "instid": "DTRPR23",
+        "name": "Advanced Diploma in Theology, Religion and Philosophy of Religion entry 2023"
+    },
+    "CTF21": {
+        "cancelled": false,
+        "instid": "CTF21",
+        "name": "CTF students (non-Cambridge awards) - 2021 entry"
+    },
+    "CTF22": {
+        "cancelled": false,
+        "instid": "CTF22",
+        "name": "CTF students (non-Cambridge awards) - 2022 entry"
+    },
+    "CTF23": {
+        "cancelled": false,
+        "instid": "CTF23",
+        "name": "CTF students (non-Cambridge awards) - 2023 entry"
+    },
+    "DTM21": {
+        "cancelled": false,
+        "instid": "DTM21",
+        "name": "Diploma in Theology for Ministry - 2021 entry"
+    },
+    "EMTC": {
+        "cancelled": false,
+        "instid": "EMTC",
+        "name": "Eastern Region Ministry Course"
+    },
+    "FARADAY": {
+        "cancelled": false,
+        "instid": "FARADAY",
+        "name": "Faraday Institute"
+    },
+    "IOCS": {
+        "cancelled": false,
+        "instid": "IOCS",
+        "name": "Institute for Orthodox Christian Studies",
+        "acronym": "IOCS"
+    },
+    "MBIT": {
+        "cancelled": false,
+        "instid": "MBIT",
+        "name": "Margaret Beaufort Institute of Theology",
+        "acronym": "MBIT"
+    },
+    "RIDLEY": {
+        "cancelled": false,
+        "instid": "RIDLEY",
+        "name": "Ridley Hall"
+    },
+    "HMC": {
+        "cancelled": false,
+        "instid": "HMC",
+        "name": "The Cambridge Centre for Christianity Worldwide"
+    },
+    "WESLEY": {
+        "cancelled": false,
+        "instid": "WESLEY",
+        "name": "Wesley House"
+    },
+    "WESTCOT": {
+        "cancelled": false,
+        "instid": "WESTCOT",
+        "name": "Westcott House"
+    },
+    "WESTFLD": {
+        "cancelled": false,
+        "instid": "WESTFLD",
+        "name": "Westfield House"
+    },
+    "WESTMIN": {
+        "cancelled": false,
+        "instid": "WESTMIN",
+        "name": "Westminster College",
+        "acronym": "Westminster College URC"
+    },
+    "CJCR": {
+        "cancelled": false,
+        "instid": "CJCR",
+        "name": "Woolf Institute"
+    },
+    "CHRISTS": {
+        "cancelled": false,
+        "instid": "CHRISTS",
+        "name": "Christ's College",
+        "acronym": "CHRISTS"
+    },
+    "CHRSTPG": {
+        "cancelled": false,
+        "instid": "CHRSTPG",
+        "name": "Christ's College - Graduates and Postgraduates"
+    },
+    "CHRSTUG": {
+        "cancelled": false,
+        "instid": "CHRSTUG",
+        "name": "Christ's College - Undergraduates"
+    },
+    "CHURCH": {
+        "cancelled": false,
+        "instid": "CHURCH",
+        "name": "Churchill College",
+        "acronym": "CHURCHILL"
+    },
+    "CHURPG": {
+        "cancelled": false,
+        "instid": "CHURPG",
+        "name": "Churchill College - Graduates and Postgraduates"
+    },
+    "CHURUG": {
+        "cancelled": false,
+        "instid": "CHURUG",
+        "name": "Churchill College - Undergraduates"
+    },
+    "CLARE": {
+        "cancelled": false,
+        "instid": "CLARE",
+        "name": "Clare College",
+        "acronym": "CLARE"
+    },
+    "CLAREPG": {
+        "cancelled": false,
+        "instid": "CLAREPG",
+        "name": "Clare College - Graduates and Postgraduates"
+    },
+    "CLAREUG": {
+        "cancelled": false,
+        "instid": "CLAREUG",
+        "name": "Clare College - Undergraduates"
+    },
+    "CLAREH": {
+        "cancelled": false,
+        "instid": "CLAREH",
+        "name": "Clare Hall",
+        "acronym": "CLARE HALL"
+    },
+    "CLARHPG": {
+        "cancelled": false,
+        "instid": "CLARHPG",
+        "name": "Clare Hall - Graduates and Postgraduates"
+    },
+    "SPVSR23": {
+        "cancelled": false,
+        "instid": "SPVSR23",
+        "name": "College Business 2023"
+    },
+    "CORPUS": {
+        "cancelled": false,
+        "instid": "CORPUS",
+        "name": "Corpus Christi College",
+        "acronym": "CORPUS"
+    },
+    "CORPPG": {
+        "cancelled": false,
+        "instid": "CORPPG",
+        "name": "Corpus Christi College - Graduates and Postgraduates"
+    },
+    "CORPUG": {
+        "cancelled": false,
+        "instid": "CORPUG",
+        "name": "Corpus Christi College - Undergraduates"
+    },
+    "DARWIN": {
+        "cancelled": false,
+        "instid": "DARWIN",
+        "name": "Darwin College",
+        "acronym": "DARWIN"
+    },
+    "DARPG": {
+        "cancelled": false,
+        "instid": "DARPG",
+        "name": "Darwin College - Graduates and Postgraduates"
+    },
+    "DOWN": {
+        "cancelled": false,
+        "instid": "DOWN",
+        "name": "Downing College",
+        "acronym": "DOWNING"
+    },
+    "DOWNPG": {
+        "cancelled": false,
+        "instid": "DOWNPG",
+        "name": "Downing College - Graduates and Postgraduates"
+    },
+    "DOWNUG": {
+        "cancelled": false,
+        "instid": "DOWNUG",
+        "name": "Downing College - Undergraduates"
+    },
+    "EMM": {
+        "cancelled": false,
+        "instid": "EMM",
+        "name": "Emmanuel College",
+        "acronym": "EMMA"
+    },
+    "EMMPG": {
+        "cancelled": false,
+        "instid": "EMMPG",
+        "name": "Emmanuel College - Graduates and Postgraduates"
+    },
+    "EMMUG": {
+        "cancelled": false,
+        "instid": "EMMUG",
+        "name": "Emmanuel College - Undergraduates"
+    },
+    "FITZ": {
+        "cancelled": false,
+        "instid": "FITZ",
+        "name": "Fitzwilliam College",
+        "acronym": "FITZ COL"
+    },
+    "FITZPG": {
+        "cancelled": false,
+        "instid": "FITZPG",
+        "name": "Fitzwilliam College - Graduates and Postgraduates"
+    },
+    "FITZUG": {
+        "cancelled": false,
+        "instid": "FITZUG",
+        "name": "Fitzwilliam College - Undergraduates"
+    },
+    "GIRTON": {
+        "cancelled": false,
+        "instid": "GIRTON",
+        "name": "Girton College",
+        "acronym": "GIRTON"
+    },
+    "GIRTPG": {
+        "cancelled": false,
+        "instid": "GIRTPG",
+        "name": "Girton College - Graduates and Postgraduates"
+    },
+    "GIRTUG": {
+        "cancelled": false,
+        "instid": "GIRTUG",
+        "name": "Girton College - Undergraduates"
+    },
+    "CAIUS": {
+        "cancelled": false,
+        "instid": "CAIUS",
+        "name": "Gonville and Caius College",
+        "acronym": "CAIUS - Main Lodge"
+    },
+    "CAIUSPG": {
+        "cancelled": false,
+        "instid": "CAIUSPG",
+        "name": "Gonville and Caius College - Graduates and Postgraduates"
+    },
+    "CAIUSUG": {
+        "cancelled": false,
+        "instid": "CAIUSUG",
+        "name": "Gonville and Caius College - Undergraduates"
+    },
+    "HOM": {
+        "cancelled": false,
+        "instid": "HOM",
+        "name": "Homerton College",
+        "acronym": "HOMERTON"
+    },
+    "HOMPG": {
+        "cancelled": false,
+        "instid": "HOMPG",
+        "name": "Homerton College - Graduates and Postgraduates"
+    },
+    "HOMUG": {
+        "cancelled": false,
+        "instid": "HOMUG",
+        "name": "Homerton College - Undergraduates"
+    },
+    "HUGHES": {
+        "cancelled": false,
+        "instid": "HUGHES",
+        "name": "Hughes Hall",
+        "acronym": "HUG HALL"
+    },
+    "HUGHPG": {
+        "cancelled": false,
+        "instid": "HUGHPG",
+        "name": "Hughes Hall - Graduates and Postgraduates"
+    },
+    "HUGHUG": {
+        "cancelled": false,
+        "instid": "HUGHUG",
+        "name": "Hughes Hall - Undergraduates"
+    },
+    "JESUS": {
+        "cancelled": false,
+        "instid": "JESUS",
+        "name": "Jesus College",
+        "acronym": "JESUS"
+    },
+    "JESUSPG": {
+        "cancelled": false,
+        "instid": "JESUSPG",
+        "name": "Jesus College - Graduates and Postgraduates"
+    },
+    "JESUSUG": {
+        "cancelled": false,
+        "instid": "JESUSUG",
+        "name": "Jesus College - Undergraduates"
+    },
+    "KINGS": {
+        "cancelled": false,
+        "instid": "KINGS",
+        "name": "King's College",
+        "acronym": "KINGS"
+    },
+    "KINGSPG": {
+        "cancelled": false,
+        "instid": "KINGSPG",
+        "name": "King's College - Graduates and Postgraduates"
+    },
+    "KCRC": {
+        "cancelled": false,
+        "instid": "KCRC",
+        "name": "King's College Research Centre"
+    },
+    "KINGSUG": {
+        "cancelled": false,
+        "instid": "KINGSUG",
+        "name": "King's College - Undergraduates"
+    },
+    "LCC": {
+        "cancelled": false,
+        "instid": "LCC",
+        "name": "Lucy Cavendish College",
+        "acronym": "LUCYCAV"
+    },
+    "LCCPG": {
+        "cancelled": false,
+        "instid": "LCCPG",
+        "name": "Lucy Cavendish College - Graduates and Postgraduates"
+    },
+    "LCCUG": {
+        "cancelled": false,
+        "instid": "LCCUG",
+        "name": "Lucy Cavendish College - Undergraduates"
+    },
+    "MAGD": {
+        "cancelled": false,
+        "instid": "MAGD",
+        "name": "Magdalene College",
+        "acronym": "MAGDLN"
+    },
+    "MAGDPG": {
+        "cancelled": false,
+        "instid": "MAGDPG",
+        "name": "Magdalene College - Graduates and Postgraduates"
+    },
+    "MAGDUG": {
+        "cancelled": false,
+        "instid": "MAGDUG",
+        "name": "Magdalene College - Undergraduates"
+    },
+    "CONFCAM": {
+        "cancelled": false,
+        "instid": "CONFCAM",
+        "name": "Meet Cambridge",
+        "acronym": "Conference Cambridge"
+    },
+    "NEWH": {
+        "cancelled": false,
+        "instid": "NEWH",
+        "name": "Murray Edwards College",
+        "acronym": "NEWHALL"
+    },
+    "NEWHPG": {
+        "cancelled": false,
+        "instid": "NEWHPG",
+        "name": "New Hall - Graduates and Postgraduates"
+    },
+    "NEWHUG": {
+        "cancelled": false,
+        "instid": "NEWHUG",
+        "name": "New Hall - Undergraduates"
+    },
+    "NEWN": {
+        "cancelled": false,
+        "instid": "NEWN",
+        "name": "Newnham College",
+        "acronym": "Newnham College"
+    },
+    "NEWNPG": {
+        "cancelled": false,
+        "instid": "NEWNPG",
+        "name": "Newnham College - Graduates and Postgraduates"
+    },
+    "NEWNUG": {
+        "cancelled": false,
+        "instid": "NEWNUG",
+        "name": "Newnham College - Undergraduates"
+    },
+    "INTERCOL": {
+        "cancelled": false,
+        "instid": "INTERCOL",
+        "name": "Office of Intercollegiate Services",
+        "acronym": "OIS"
+    },
+    "PEMB": {
+        "cancelled": false,
+        "instid": "PEMB",
+        "name": "Pembroke College",
+        "acronym": "PEMBRK"
+    },
+    "PEMBPG": {
+        "cancelled": false,
+        "instid": "PEMBPG",
+        "name": "Pembroke College - Graduates and Postgraduates"
+    },
+    "PEMBUG": {
+        "cancelled": false,
+        "instid": "PEMBUG",
+        "name": "Pembroke College - Undergraduates"
+    },
+    "PET": {
+        "cancelled": false,
+        "instid": "PET",
+        "name": "Peterhouse",
+        "acronym": "PETERHS"
+    },
+    "PETPG": {
+        "cancelled": false,
+        "instid": "PETPG",
+        "name": "Peterhouse - Graduates and Postgraduates"
+    },
+    "PETUG": {
+        "cancelled": false,
+        "instid": "PETUG",
+        "name": "Peterhouse - Undergraduates"
+    },
+    "QUEENS": {
+        "cancelled": false,
+        "instid": "QUEENS",
+        "name": "Queens' College",
+        "acronym": "QUEENS"
+    },
+    "QUENPG": {
+        "cancelled": false,
+        "instid": "QUENPG",
+        "name": "Queens' College - Graduates and Postgraduates"
+    },
+    "QUENUG": {
+        "cancelled": false,
+        "instid": "QUENUG",
+        "name": "Queens' College - Undergraduates"
+    },
+    "ROBIN": {
+        "cancelled": false,
+        "instid": "ROBIN",
+        "name": "Robinson College",
+        "acronym": "ROBINSN"
+    },
+    "ROBINPG": {
+        "cancelled": false,
+        "instid": "ROBINPG",
+        "name": "Robinson College - Graduates and Postgraduates"
+    },
+    "ROBINUG": {
+        "cancelled": false,
+        "instid": "ROBINUG",
+        "name": "Robinson College - Undergraduates"
+    },
+    "SEL": {
+        "cancelled": false,
+        "instid": "SEL",
+        "name": "Selwyn College",
+        "acronym": "SELWYN"
+    },
+    "SELPG": {
+        "cancelled": false,
+        "instid": "SELPG",
+        "name": "Selwyn College - Graduates and Postgraduates"
+    },
+    "SELUG": {
+        "cancelled": false,
+        "instid": "SELUG",
+        "name": "Selwyn College - Undergraduates"
+    },
+    "SID": {
+        "cancelled": false,
+        "instid": "SID",
+        "name": "Sidney Sussex College",
+        "acronym": "SIDNEY"
+    },
+    "SIDPG": {
+        "cancelled": false,
+        "instid": "SIDPG",
+        "name": "Sidney Sussex College - Graduates and Postgraduates"
+    },
+    "SIDUG": {
+        "cancelled": false,
+        "instid": "SIDUG",
+        "name": "Sidney Sussex College - Undergraduates"
+    },
+    "CATH": {
+        "cancelled": false,
+        "instid": "CATH",
+        "name": "St Catharine's College",
+        "acronym": "ST CATS"
+    },
+    "CATHPG": {
+        "cancelled": false,
+        "instid": "CATHPG",
+        "name": "St Catharine's College - Graduates and Postgraduates"
+    },
+    "CATHUG": {
+        "cancelled": false,
+        "instid": "CATHUG",
+        "name": "St Catharine's College - Undergraduates"
+    },
+    "EDMUND": {
+        "cancelled": false,
+        "instid": "EDMUND",
+        "name": "St Edmund's College",
+        "acronym": "EDMUND"
+    },
+    "EDMPG": {
+        "cancelled": false,
+        "instid": "EDMPG",
+        "name": "St Edmund's College - Graduates and Postgraduates"
+    },
+    "EDMUG": {
+        "cancelled": false,
+        "instid": "EDMUG",
+        "name": "St Edmund's College - Undergraduates"
+    },
+    "HUGEL": {
+        "cancelled": false,
+        "instid": "HUGEL",
+        "name": "Von Hugel Institute",
+        "acronym": "VHI"
+    },
+    "JOHNS": {
+        "cancelled": false,
+        "instid": "JOHNS",
+        "name": "St John's College",
+        "acronym": "JOH"
+    },
+    "JOHNSPG": {
+        "cancelled": false,
+        "instid": "JOHNSPG",
+        "name": "St John's College - Graduates and Postgraduates"
+    },
+    "JOHNSUG": {
+        "cancelled": false,
+        "instid": "JOHNSUG",
+        "name": "St John's College - Undergraduates"
+    },
+    "TRIN": {
+        "cancelled": false,
+        "instid": "TRIN",
+        "name": "Trinity College",
+        "acronym": "TRINITY"
+    },
+    "TRININT": {
+        "cancelled": false,
+        "instid": "TRININT",
+        "name": "The Isaac Newton Trust",
+        "acronym": "INT"
+    },
+    "TRINPG": {
+        "cancelled": false,
+        "instid": "TRINPG",
+        "name": "Trinity College - Graduates and Postgraduates"
+    },
+    "TRINLIB": {
+        "cancelled": false,
+        "instid": "TRINLIB",
+        "name": "Trinity College Library"
+    },
+    "TRINUG": {
+        "cancelled": false,
+        "instid": "TRINUG",
+        "name": "Trinity College - Undergraduates"
+    },
+    "TRINH": {
+        "cancelled": false,
+        "instid": "TRINH",
+        "name": "Trinity Hall",
+        "acronym": "TRINHL"
+    },
+    "TRINHPG": {
+        "cancelled": false,
+        "instid": "TRINHPG",
+        "name": "Trinity Hall - Graduates and Postgraduates"
+    },
+    "TRINHUG": {
+        "cancelled": false,
+        "instid": "TRINHUG",
+        "name": "Trinity Hall - Undergraduates"
+    },
+    "SOC22": {
+        "cancelled": false,
+        "instid": "SOC22",
+        "name": "University Societies 2022"
+    },
+    "SOC23": {
+        "cancelled": false,
+        "instid": "SOC23",
+        "name": "University Societies 2023"
+    },
+    "WOLFC": {
+        "cancelled": false,
+        "instid": "WOLFC",
+        "name": "Wolfson College",
+        "acronym": "WOLFSON COLLEGE"
+    },
+    "WOLFCPG": {
+        "cancelled": false,
+        "instid": "WOLFCPG",
+        "name": "Wolfson College - Graduates and Postgraduates"
+    },
+    "WOLFCUG": {
+        "cancelled": false,
+        "instid": "WOLFCUG",
+        "name": "Wolfson College - Undergraduates"
+    }
+}
